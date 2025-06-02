@@ -1,0 +1,70 @@
+# Credential files - NEVER commit these!
+*.ini
+S3.ini
+googleadsconfig.ini
+ga4config.ini
+mailchimpconfig.ini
+
+# Service account and OAuth credentials
+service_account.json
+client_secret.json
+youtube_client_secret.json
+token.json
+google-ads.yaml
+web_oauth.json
+
+# Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+log/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Excel files that may contain sensitive data
+*.xlsx
+*.xls
+
+# Archives that may contain sensitive data
+*.zip
+*.rar
+*.7z 
